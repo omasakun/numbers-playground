@@ -9,7 +9,7 @@ let mouse;
 let bgm, se,se2;
 
 function preload() {
-  bgm = loadSound('bgm.mp3');
+  // bgm = loadSound('bgm.mp3');
   se = loadSound('se.mp3');
   se2 = loadSound('se2.mp3');
 }
@@ -26,8 +26,8 @@ function setup() {
   };
   game = new Game(ev, true);
 
-  bgm.setVolume(0.3);
-  bgm.loop();
+  // bgm.setVolume(0.3);
+  // bgm.loop();
 }
 
 function windowResized() {
